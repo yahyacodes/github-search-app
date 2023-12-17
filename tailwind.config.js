@@ -4,7 +4,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        color: "#040730",
+        color: "#141c2f",
+        skyBlue: "#0079fe",
+        divBg: "#1f2a48",
+        cardOverlay: "rgba(256,256,256,0.4)",
       },
     },
   },

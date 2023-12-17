@@ -2,7 +2,6 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
   margin-top: 20rem;
 }
 
@@ -28,16 +27,8 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media (max-width: 800px) {
+  #root {
+    margin-top: 0rem;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }
