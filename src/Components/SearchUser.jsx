@@ -25,7 +25,7 @@ const SearchUser = ({ username, onSetUsername, onHandleSearch }) => {
           type="text"
           id="default-search"
           className="w-full py-4 pl-12 pr-4 text-gray-100 focus:bg-divBg rounded-md outline-none bg-divBg"
-          placeholder="Search username with no gaps..."
+          placeholder="Search username..."
           required
           value={username}
           onChange={onSetUsername}

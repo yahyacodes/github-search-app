@@ -29,9 +29,13 @@ const Info = ({ data }) => {
                   <BsTwitterX />
                 </div>
                 <div>
-                  <p className="text-gray-100 text-lg">
+                  <a
+                    href={`https://twitter.com/${data.twitter_username}`}
+                    target="_blank"
+                    className="text-gray-100 text-lg"
+                  >
                     {data.twitter_username || "Twitter Not Found"}
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
@@ -44,9 +48,9 @@ const Info = ({ data }) => {
                   <BsLink45Deg />
                 </div>
                 <div>
-                  <p className="text-gray-100 text-md">
+                  <a className="text-gray-100 text-md">
                     {data.blog || "Webiste Not Found"}
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
